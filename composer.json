@@ -1,0 +1,22 @@
+{
+    "name": "webjump/correios-sigep",
+    "description": "Libraty to Correios CEP search.",
+    "type": "magento2-library",
+    "version": "0.1.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webjump\\CorreiosSigep\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
