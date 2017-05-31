@@ -1,7 +1,7 @@
 <?php
 namespace CorreiosSigep\ConsultaCep;
 
-class Request implements \CorreiosSigep\ConsultaCep\RequestInterface
+class Request implements CorreiosSigep\ConsultaCep\RequestInterface
 {
     protected $cep;
 
